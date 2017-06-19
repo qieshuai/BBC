@@ -1,4 +1,4 @@
-MessageBoard(ThinkPHP 5.0)
+BBC(ThinkPHP 5.0)
 ===============
 
 [![Latest Stable Version](https://poser.pugx.org/topthink/think/v/stable)](https://packagist.org/packages/topthink/think)
@@ -56,17 +56,3 @@ www  WEB部署目录（或者子目录）
 ├─think                 命令行入口文件
 ├─message.sql           数据库备份文件
 ~~~
-
-## 使用
-
-````
-git clone git@github.com:Leooman/MessageBoard.git
-````
-
-- 数据库配置
-
-导入message.sql，访问`localhost/MessageBoard/public`
-
-- 登录账号：leooman
-
-- 登录密码：123456
