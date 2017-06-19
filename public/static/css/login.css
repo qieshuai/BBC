@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.content{
+    min-height: 210px;
+}
+.code{
+    overflow: hidden;
+}
+.vertify{
+    display: inline;width: 60%;
+}
+.code img{
+    height: 34px;float: right;vertical-align: bottom;width: 38%;
+}
+.checkbox{
+    margin-top: 5px;margin-bottom: 6px;
+}

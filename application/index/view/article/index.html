@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+{include file='common/header' title='Admin | LEO'}
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+{include file='common/top'}
+<!-- Left side column. contains the logo and sidebar -->
+{include file="common/left"}
+
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        Dashboard
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <table class="table">
+        <tr>
+            <td>编号</td>
+            <td>标题</td>
+            <td>评论</td>
+            <td>发布日期</td>
+            <td>操作</td>
+        </tr>
+        {volist name='list' id='v'}
+        <tr>
+            <td>{$v.id}</td>
+            <td><a href="__ROOT__/read/{$v.id}">{$v.title}</a></td>
+            <td>{$v.count}</td>
+            <td>{$v.create_time}</td>
+            <td> <a href="__ROOT__/delete/{$v.id}" class="btn btn-danger">删除</a></td>
+        </tr>
+        {/volist}
+    </table>
+    {$list->render()}
+    </section>
+</div>
+
+
+{include file='common/footer'}
+{include file='common/sidebar'}
+<!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+</body>
+</html>
