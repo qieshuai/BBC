@@ -10,22 +10,6 @@ use app\index\model\User;
 use app\index\model\Lists;
 class Article extends Index
 {
-
-	private $path='/MessageBoard/public';
-	/*public function check(){
-		if(!Session::has('name')){
-			Hook::listen('CheckAuth',$params);
-		}	
-	}
-
-	public function login(){
-		if(Session::has('name')){
-			$name=Session::get('name');
-		}else{
-			$name=null;
-		}
-		$this->assign('name',$name);
-	}*/
 	public function index(){
 		$this->login();
 		$lists=Lists::paginate(8);
@@ -35,11 +19,6 @@ class Article extends Index
 		$this->assign('list',$lists);
 		return $this->fetch();
 	}
-
-	/*public function out(){
-		Session::clear();
-		return $this->success('退出成功',$this->path);
-	}*/
 	public function read($id){
 		$this->check();
 		$this->login();
@@ -60,7 +39,7 @@ class Article extends Index
 		$comment->create_time=time();
 
 		if($comment->save()){
-			$this->success('添加评论成功！',$this->path.'/read/'.$id);
+			$this->success('添加评论成功！');
 		}else{
 			$this->error('添加评论失败！');
 		}

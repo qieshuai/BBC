@@ -28,13 +28,8 @@
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
         <li class="active treeview">
-          <a href={:url('index')}>
-            <i class="fa fa-share-alt"></i> <span>Article</span>
-          </a>
-        </li>
-        <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard text-info"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -45,6 +40,18 @@
           </ul>
         </li>
         <li class="treeview">
+          <a href=''>
+            <i class="fa fa-edit text-aqua"></i> <span>Article</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href='__ROOT__/index/article'><i class="fa fa-list"></i> Article List</a></li>
+            <li><a href='__ROOT__/add'><i class="fa fa-edit"></i> Add New Article</a></li>
+          </ul>
+        </li>
+        <!-- <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Layout Options</span>
@@ -58,8 +65,8 @@
             <li><a href={:url('fixed')}><i class="fa fa-circle-o"></i> Fixed</a></li>
             <li><a href={:url('collapsed_sidebar')}><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
           <a href={:url('widgets')}>
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
@@ -194,12 +201,58 @@
             </li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
           </ul>
+        </li> -->
+
+
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-line-chart text-danger"></i> <span>Lottery</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{:url('demo')}"><i class="fa fa-circle-o text-red"></i> BeiJing PK10</a></li>
+            <li><a href="{:url('demo')}"><i class="fa fa-circle-o text-yellow"></i> ChongQing ShiShiCai</a></li>
+            <li><a href="{:url('demo')}"><i class="fa fa-circle-o text-aqua"></i> XinJiang ShiShiCai</a></li>
+            <li><a href="{:url('demo')}"><i class="fa fa-circle-o text-blue"></i> TianJin ShiShiCai</a></li>
+          </ul>
         </li>
-        <li><a href={:url('documentation/index')}><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+
+        <li class="treeview">
+          <a href=''>
+            <i class="fa fa-video-camera text-warning"></i> <span>Vedio</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href=''><i class="fa fa-list"></i> Video List</a></li>
+            <li><a href=''><i class="fa fa-edit"></i> Add New Video</a></li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href=''>
+            <i class="fa fa-music text-danger"></i> <span>Music</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href=''><i class="fa fa-list"></i> Music List</a></li>
+            <li><a href=''><i class="fa fa-edit"></i> Add New Music</a></li>
+          </ul>
+        </li>
+
         <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
+        <!-- <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li> -->
+        <li><a href="https://github.com/Leooman"><i class="fa fa-github"></i> <span>Github</span></a></li>
+        <li><a href="http://blog.csdn.net/qq_33797888/article/"><i class="fa fa-share-alt"></i> <span>CSDN</span></a></li>
+        <li><a href="#"><i class="fa fa-facebook-official"></i> <span>Facebook</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
