@@ -8,6 +8,7 @@ use think\Hook;
 
 use app\index\model\User;
 use app\index\model\Lists;
+use app\index\model\Pass;
 class Index extends Controller
 {
 	public function check(){
@@ -21,6 +22,7 @@ class Index extends Controller
 			$name=Session::get('name');
 		}else{
 			$name=null;
+			return $this->error('请先登录','/BBC/public/login');
 		}
 		$this->assign('name',$name);
 	}
@@ -31,7 +33,7 @@ class Index extends Controller
 
 	public function out(){
 		Session::clear();
-		return $this->success('退出成功',$this->path);
+		return $this->success('退出成功','/BBC/public/login');
 	}
 
 	// demo website
@@ -126,8 +128,22 @@ class Index extends Controller
 		    }
 		public function lockscreen()
 		    {
+		    	$this->login();
 		    	return $this->fetch();
 		    }
+
+		public function lock($user_passwd=''){
+			$user_name=Session::get('name');
+			$user=Pass::get([
+					'user_name' => $user_name,
+					'UserPassward' => $user_passwd
+				]);
+			if($user){
+				return $this->success('登录成功！','/BBC/public');
+			}else{
+				return $this->error('密码不正确');
+			}		
+		}
 		/*public function login()
 		    {
 		    	return $this->fetch();

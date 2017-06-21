@@ -26,6 +26,7 @@ return [
    'addarticle'=>'index/addarticle',
    'login'=>'login/index',
    'login_submit'=>'login/login',
+   // 'lock_submit'=>'login/lock',
    'regist'=>'regist/index',
    'regist_submit'=>'regist/regist'
 ];

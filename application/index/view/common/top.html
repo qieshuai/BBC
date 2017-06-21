@@ -221,7 +221,7 @@
                 <img src="__STATIC__/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
+                  {$name} - Web Developer
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -232,7 +232,7 @@
                     <a href="#">Followers</a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
+                    <a href="{:url('profile')}">Profile</a>
                   </div>
                   <div class="col-xs-4 text-center">
                     <a href="#">Friends</a>
@@ -242,8 +242,11 @@
               </li>
               <!-- Menu Footer-->
               <li class="user-footer">
-                <div class="pull-left">
+                <!-- <div class="pull-left">
                   <a href="{:url('profile')}" class="btn btn-default btn-flat">Profile</a>
+                </div> -->
+                <div class="pull-left">
+                  <a href="{:url('lockscreen')}" class="btn btn-default btn-flat">LockScreen</a>
                 </div>
                 <div class="pull-right">
                   <a href="__ROOT__/out" class="btn btn-default btn-flat">Sign out</a>
@@ -257,7 +260,7 @@
           {/if}
           <!-- Control Sidebar Toggle Button -->
           <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin fa-fw" style="font-size: 20px;"></i></a>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin fa-fw" style="font-size: 18px;"></i></a>
           </li>
         </ul>
       </div>

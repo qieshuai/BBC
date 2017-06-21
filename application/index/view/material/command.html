@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+{include file='common/header' title='Admin | LEO'}
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+	{include file='common/top'}
+  <!-- Left side column. contains the logo and sidebar -->
+  {include file="common/left"}
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <!-- <section class="content-header">
+      <h1>
+        Dashboard
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+    </section> -->
+
+    <!-- Main content -->
+    <section class="content body--ready">
+		<canvas class="canvas"></canvas>
+
+		<div class="help">?</div> 
+
+		<div class="ui">
+		  <input class="ui-input" type="text" />
+		  <span class="ui-return">↵</span>
+		</div>
+
+		<div class="overlay">
+		  <div class="tabs">
+		    <div class="tabs-labels"><span class="tabs-label">Commands</span>
+		    <!-- <span class="tabs-label">Info</span><span class="tabs-label">Share</span> -->
+		    </div>
+		    <div class="tabs-panels">
+		      <ul class="tabs-panel commands">
+		        <li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>
+		        <li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>
+		        <li class="commands-item"><span class="commands-item-title">Time</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>
+		        <li class="commands-item"><span class="commands-item-title">Rectangle</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>
+		        <li class="commands-item"><span class="commands-item-title">Circle</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>
+
+		        <li class="commands-item commands-item--gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span><span class="commands-item-action">Demo</span></li>
+		      </ul>
+
+		      <div class="tabs-panel ui-details">
+		        <div class="ui-details-content">
+		          <h1>Shape Shifter</h1>
+		          <p>
+		            An experiment by <a href="//www.kennethcachia.com" target="_blank">Kenneth Cachia<a/>.<br/>
+		            <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> is being used to render all #icons.
+		          </p>
+
+		          <br/><p>Visit <a href="http://www.kennethcachia.com/shape-shifter/?a=#icon thumbs-up" target="_blank">Shape Shifter</a> to use icons.</p>
+		        </div>
+		      </div>
+
+		      <div class="tabs-panel ui-share">
+		        <div class="ui-share-content">
+		          <h1>Sharing</h1>
+		          <p>Simply add <em>?a=</em> to the current URL to share any static or animated text. Examples:</p>
+		          <p>
+		            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello</a><br/>
+		            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
+		          </p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<script src="__STATIC__/js/command.js"></script>
+		<script>
+		$(function(){
+			$('.content').height(window.innerHeight-130);
+			var w=$('.content').width();
+			var h=$('.content').height();
+			console.log(w+'/'+h);
+			S.init(w,h);
+		})
+		</script>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  {include file='common/footer'}
+  {include file='common/sidebar'}
+<!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</body>
+</html>

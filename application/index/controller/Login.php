@@ -33,10 +33,11 @@ class login extends Controller{
 		 	return $this->error('验证码错误');
 		} else {
 			 if($user){
-				return $this->success('登录成功！','/MessageBoard/public');
+				return $this->success('登录成功！','/BBC/public');
 			}else{
 				return $this->error('用户名或密码不正确');
 			}
 		}	
 	}
+
 }

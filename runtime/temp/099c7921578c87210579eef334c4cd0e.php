@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"D:\xampp\htdocs\BBC\public/../application/index\view\index\lockscreen.html";i:1498009622;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,9 +30,9 @@
     <a href="../../index2.html"><b>Admin</b>LEO</a>
   </div>
   <!-- User name -->
-  {if condition="$name"}
-  <div class="lockscreen-name">{$name}</div>
-  {/if}
+  <?php if($name): ?>
+  <div class="lockscreen-name"><?php echo $name; ?></div>
+  <?php endif; ?>
   <!-- START LOCK SCREEN ITEM -->
   <div class="lockscreen-item">
     <!-- lockscreen image -->
