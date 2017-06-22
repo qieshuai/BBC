@@ -22,7 +22,7 @@ class Index extends Controller
 			$name=Session::get('name');
 		}else{
 			$name=null;
-			return $this->error('请先登录','/BBC/public/login');
+			return $this->error('请先登录','/BBC/public/login','',0);
 		}
 		$this->assign('name',$name);
 	}
@@ -109,7 +109,7 @@ class Index extends Controller
 		    {
 		    	return $this->fetch();
 		    }*/
-		public function index2()
+		public function blog()
 		    {
 		    	$this->login();
 		    	return $this->fetch();
