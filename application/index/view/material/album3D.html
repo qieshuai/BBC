@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+{include file='common/header' title='Admin | LEO'}
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+	{include file='common/top'}
+  {include file="common/left"}
+  <div class="content-wrapper">
+    <section class="content body--ready">
+		<div class='album_wrap'>
+			<div id="photos">
+				<img src="__STATIC__/img/album/1.jpg"  />
+				<img src="__STATIC__/img/album/2.jpg"  />
+				<img src="__STATIC__/img/album/3.jpg"  />
+				<img src="__STATIC__/img/album/4.jpg"  />
+				<img src="__STATIC__/img/album/5.jpg"  />
+				<img src="__STATIC__/img/album/6.jpg"  />
+				<img src="__STATIC__/img/album/7.jpg"  />
+				<img src="__STATIC__/img/album/8.jpg"  />
+				<div></div>
+			</div>
+		</div>
+		<script>
+		$(function(){
+			$('.content').height(window.innerHeight-130);
+			var photosDom = document.getElementById('photos');
+			var images = photosDom.getElementsByTagName('img');	
+			var len = images.length;		 
+			var deg = Math.floor(360 / len); 					
+			for(var i = 0; i < len;i++){
+				images[i].style = 'transform : rotateY(' + deg * i + 'deg) translateZ(380px)';
+			}
+			var x = 0;
+			setInterval(function(){
+				photosDom.style.transform = "rotateX(-10deg) rotateY("+ (x++) * 0.2 +"deg)";
+			},30);
+		})
+		</script>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  {include file='common/footer'}
+  {include file='common/sidebar'}
+<!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</body>
+</html>

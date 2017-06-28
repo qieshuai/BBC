@@ -14,4 +14,9 @@ class Material extends Index
 		$this->login();
 		return $this->fetch();
 	}
+
+	public function album3D(){
+		$this->login();
+		return $this->fetch();
+	}
 }
