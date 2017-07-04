@@ -14,3 +14,20 @@
 .checkbox{
     margin-top: 5px;margin-bottom: 6px;
 }
+.large-header {
+	position: absolute;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+	background-image: url('../img/2.jpg');
+}
+.login-box{
+	margin: 0 auto;
+	padding-top: 7%;
+}
+.login-logo{
+	
+}

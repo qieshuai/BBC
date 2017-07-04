@@ -306,7 +306,7 @@
   .album_wrap #photos{
     width:110px;       /*宽度*/
     height:180px;      /*高度*/
-    border:1px solid #ccc; /*加一个灰色边框*/
+    border:1px solid #000; /*加一个灰色边框*/
     margin:150px auto;     /*水平居中，高度距离顶部100px*/
     transform-style:preserve-3d;/*设置3d环境*/
     transform:rotateX(-10deg);

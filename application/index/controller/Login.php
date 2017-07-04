@@ -11,7 +11,7 @@ class login extends Controller{
 		// $view = new View;
 		return $this->fetch();
 	}
-	public function checkcode() 
+	/*public function checkcode() 
 	{
 		$code=input('post.user_vertify');
 		if(!captcha_check($code))
@@ -20,14 +20,19 @@ class login extends Controller{
 		} else {
 		 echo "验证通过！";
 		}
-	}
+	}*/
 	public function login($user_name='',$user_passwd=''){
 		$user=Pass::get([
 				'user_name' => $user_name,
 				'UserPassward' => $user_passwd
 			]);
 		Session::set('name',$user_name);
-		$code=input('post.user_vertify');
+		if($user){
+			return $this->success('登录成功！','/BBC/public');
+		}else{
+			return $this->error('用户名或密码不正确');
+		}
+		/*$code=input('post.user_vertify');
 		if(!captcha_check($code))
 		{
 		 	return $this->error('验证码错误');
@@ -37,7 +42,7 @@ class login extends Controller{
 			}else{
 				return $this->error('用户名或密码不正确');
 			}
-		}	
+		}	*/
 	}
 
 }
