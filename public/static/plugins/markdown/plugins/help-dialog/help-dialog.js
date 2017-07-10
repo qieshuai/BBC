@@ -21,7 +21,8 @@
 			var lang        = this.lang;
 			var editor      = this.editor;
 			var settings    = this.settings;
-			var path        = settings.pluginPath + pluginName + "/";
+			// var path        = settings.pluginPath + pluginName + "/";
+			var path        = "static/plugins/markdown/plugins/"+ pluginName + "/";
 			var classPrefix = this.classPrefix;
 			var dialogName  = classPrefix + pluginName, dialog;
 			var dialogLang  = lang.dialog.help;

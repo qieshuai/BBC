@@ -304,12 +304,13 @@
     perspective:800px;    /*设置景深为800px*/
   }
   .album_wrap #photos{
-    width:110px;       /*宽度*/
-    height:180px;      /*高度*/
-    border:1px solid #000; /*加一个灰色边框*/
-    margin:150px auto;     /*水平居中，高度距离顶部100px*/
-    transform-style:preserve-3d;/*设置3d环境*/
+    width:110px; 
+    height:180px;
+    /*border:1px solid #000;*/
+    margin:150px auto;  
+    transform-style:preserve-3d;
     transform:rotateX(-10deg);
+    background: #f00;
   }
 
   .album_wrap #photos img{

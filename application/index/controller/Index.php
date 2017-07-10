@@ -22,7 +22,8 @@ class Index extends Controller
 			$name=Session::get('name');
 		}else{
 			$name=null;
-			return $this->error('请先登录','/BBC/public/login','',0);
+			return $this->redirect('/BBC/public/login');
+			// return $this->error('请先登录','/BBC/public/login','',-1);
 		}
 		$this->assign('name',$name);
 	}

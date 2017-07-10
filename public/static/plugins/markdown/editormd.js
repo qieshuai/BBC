@@ -99,7 +99,7 @@
         appendMarkdown       : "",             // if in init textarea value not empty, append markdown to textarea
         width                : "100%",
         height               : "100%",
-        path                 : "./lib/",       // Dependents module file directory
+        path                 : "./lib",       // Dependents module file directory
         pluginPath           : "",             // If this empty, default use settings.path + "../plugins/"
         delay                : 300,            // Delay parse markdown to html, Uint : ms
         autoLoadModules      : true,           // Automatic load dependent module files
@@ -495,7 +495,8 @@
         loadQueues : function() {
             var _this        = this;
             var settings     = this.settings;
-            var loadPath     = settings.path;
+            // var loadPath     = settings.path;
+            var loadPath     = "static/plugins/markdown/lib/";
                                 
             var loadFlowChartOrSequenceDiagram = function() {
                 
@@ -687,7 +688,7 @@
             
             if (settings.editorTheme !== "default")
             {
-                editormd.loadCSS(settings.path + "codemirror/theme/" + settings.editorTheme);
+                editormd.loadCSS("static/plugins/markdown/lib/codemirror/theme/" + settings.editorTheme);
             }
             
             var codeMirrorConfig = {
@@ -1076,7 +1077,7 @@
                     toolbar.css({
                         position : "fixed",
                         width    : editor.width() + "px",
-                        left     : ($window.width() - editor.width()) / 2 + "px"
+                        left     : ($window.width() - editor.width()-31) + "px"
                     });
                 }
                 else
@@ -2673,7 +2674,8 @@
             $("html,body").css("overflow", "");
 
             editor.css({
-                width    : editor.data("oldWidth"),
+                // width    : editor.data("oldWidth"),
+                width    : "100%",
                 height   : editor.data("oldHeight")
             }).removeClass(fullscreenClass);
 
@@ -2699,7 +2701,8 @@
             var cm       = this.cm;
             var settings = this.settings;
             
-            path = settings.pluginPath + path;
+            // path = settings.pluginPath + path;
+            path = "static/plugins/markdown/plugins/"+path;
             
             if (typeof define === "function") 
             {            
@@ -3365,7 +3368,8 @@
 
     // Emoji graphics files url path
     editormd.emoji     = {
-        path  : "http://www.emoji-cheat-sheet.com/graphics/emojis/",
+        // path  : "http://www.emoji-cheat-sheet.com/graphics/emojis/",
+        path  : "https://www.webpagefx.com/tools/emoji-cheat-sheet/graphics/emojis/",
         ext   : ".png"
     };
 

@@ -101,7 +101,7 @@
   display: none;
   position: absolute;
   top: 0;
-  left: 0;
+  /*left: 0;*/
   z-index: 10;
   border-bottom: 1px solid #ddd;
 }
@@ -4424,6 +4424,7 @@ hr.editormd-page-break {
   left: 0;
   border: none;
   margin: 0 auto;
+  z-index:9999;
 }
 
 /* Editor.md Dark theme */

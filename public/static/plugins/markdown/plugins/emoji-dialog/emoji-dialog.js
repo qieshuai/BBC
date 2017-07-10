@@ -76,7 +76,8 @@
                 return ;
             }
             
-			var path        = settings.pluginPath + pluginName + "/";
+			// var path        = settings.pluginPath + pluginName + "/";
+			var path        = "static/plugins/markdown/plugins/"+ pluginName + "/";
 			var editor      = this.editor;
 			var cursor      = cm.getCursor();
 			var selection   = cm.getSelection();
