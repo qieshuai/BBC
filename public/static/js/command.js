@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('hello|world');
+      S.UI.simulate('FUCK');
     }
 
     S.Drawing.loop(function () {

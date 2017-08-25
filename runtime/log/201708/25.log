@@ -1,0 +1,1831 @@
+[ 2017-08-25T09:58:29+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.695039s][吞吐率：1.44req/s] [内存消耗：1,703.07kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T09:58:29+08:00 ] ::1 ::1 GET /BBC/public/login
+[ log ] localhost/BBC/public/login [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：1,660.09kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\login->index[ D:\xampp\htdocs\BBC\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T09:58:30+08:00 ] ::1 ::1 GET /BBC/public/static/img/progress.gif
+[ log ] localhost/BBC/public/static/img/progress.gif [运行时间：0.176010s][吞吐率：5.68req/s] [内存消耗：1,413.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'progress.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/static/css/supersized.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T10:02:18+08:00 ] ::1 ::1 POST /BBC/public/login_submit
+[ log ] localhost/BBC/public/login_submit [运行时间：0.475027s][吞吐率：2.11req/s] [内存消耗：2,638.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'leooman',
+  'user_passwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\login->login[ D:\xampp\htdocs\BBC\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.091005s ] mysql:dbname=message;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.175010s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user_name` = 'leooman'  AND `UserPassward` = '123456' LIMIT 1 [ RunTime:0.017001s ]
+
+---------------------------------------------------------------
+[ 2017-08-25T10:02:22+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,779.61kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login_submit',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T10:10:04+08:00 ] ::1 ::1 GET /BBC/public/index/material/album3D
+[ log ] localhost/BBC/public/index/material/album3D [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：1,734.04kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'album3D',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->album3D[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\xampp\htdocs\BBC\public/../application/index\view\material\album3d.html[D:\xampp\htdocs\BBC\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-08-25T10:10:07+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.135007s][吞吐率：7.41req/s] [内存消耗：1,981.90kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login_submit',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T10:10:09+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：1,947.75kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T10:49:23+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,947.35kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T10:51:50+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,947.31kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T10:53:18+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,774.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:07:06+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,774.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:07:09+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,774.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:09:06+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.083004s][吞吐率：12.05req/s] [内存消耗：1,947.31kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:10:23+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,774.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:17:58+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,774.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=vrsqt4qs4qhoisuk95lnielhu2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:18:24+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.160010s][吞吐率：6.25req/s] [内存消耗：1,718.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:18:24+08:00 ] ::1 ::1 GET /BBC/public/login
+[ log ] localhost/BBC/public/login [运行时间：0.111006s][吞吐率：9.01req/s] [内存消耗：1,660.25kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\login->index[ D:\xampp\htdocs\BBC\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:18:25+08:00 ] ::1 ::1 GET /BBC/public/static/img/progress.gif
+[ log ] localhost/BBC/public/static/img/progress.gif [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：1,413.52kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'progress.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/static/css/supersized.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:18:40+08:00 ] ::1 ::1 POST /BBC/public/login_submit
+[ log ] localhost/BBC/public/login_submit [运行时间：2.142122s][吞吐率：0.47req/s] [内存消耗：2,638.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'leooman',
+  'user_passwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\login->login[ D:\xampp\htdocs\BBC\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.156066s ] mysql:dbname=message;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.579033s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user_name` = 'leooman'  AND `UserPassward` = '123456' LIMIT 1 [ RunTime:0.166009s ]
+
+---------------------------------------------------------------
+[ 2017-08-25T11:18:43+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,775.61kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login_submit',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:18:52+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,774.73kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:20:51+08:00 ] ::1 ::1 GET /BBC/public/index/material/demo.html
+[ log ] localhost/BBC/public/index/material/demo.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,734.11kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'demo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/material/command',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->demo[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\xampp\htdocs\BBC\public/../application/index\view\material\demo.html[D:\xampp\htdocs\BBC\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-08-25T11:20:53+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,774.73kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:21:27+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：1,946.48kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:24:16+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：1,774.85kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=flrhte9d39opckq2l2utuvv843',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:24:37+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,718.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:24:37+08:00 ] ::1 ::1 GET /BBC/public/login
+[ log ] localhost/BBC/public/login [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,660.25kb] [文件加载：45]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\login->index[ D:\xampp\htdocs\BBC\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:24:37+08:00 ] ::1 ::1 GET /BBC/public/static/img/progress.gif
+[ log ] localhost/BBC/public/static/img/progress.gif [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,413.48kb] [文件加载：40]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'progress.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/static/css/supersized.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:24:43+08:00 ] ::1 ::1 POST /BBC/public/login_submit
+[ log ] localhost/BBC/public/login_submit [运行时间：0.165009s][吞吐率：6.06req/s] [内存消耗：2,638.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'login',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'leooman',
+  'user_passwd' => '123456',
+)
+[ info ] [ RUN ] app\index\controller\login->login[ D:\xampp\htdocs\BBC\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=message;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.068003s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user_name` = 'leooman'  AND `UserPassward` = '123456' LIMIT 1 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-08-25T11:24:46+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,981.07kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/login_submit',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:25:05+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,774.74kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:39:32+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,775.70kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/material/command',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:40:48+08:00 ] ::1 ::1 GET /BBC/public/add
+[ log ] localhost/BBC/public/add [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：1,964.77kb] [文件加载：49]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Article->add[ D:\xampp\htdocs\BBC\application\index\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\article\add.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:40:52+08:00 ] ::1 ::1 GET /BBC/public/add
+[ log ] localhost/BBC/public/add [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,790.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Article->add[ D:\xampp\htdocs\BBC\application\index\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\article\add.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:05+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,775.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:08+08:00 ] ::1 ::1 GET /BBC/public/index/index/blog
+[ log ] localhost/BBC/public/index/index/blog [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,933.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->blog[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\blog.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:12+08:00 ] ::1 ::1 GET /BBC/public/index/article
+[ log ] localhost/BBC/public/index/article [运行时间：1.093063s][吞吐率：0.91req/s] [内存消耗：3,202.92kb] [文件加载：64]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/index/blog',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\xampp\htdocs\BBC\application\index\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\article\index.html [ array (
+  0 => 'name',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=message;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.579033s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,8 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 8 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:19+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,775.63kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/article',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:21+08:00 ] ::1 ::1 GET /BBC/public/index/index/blog
+[ log ] localhost/BBC/public/index/index/blog [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：1,759.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->blog[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\blog.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:23+08:00 ] ::1 ::1 GET /BBC/public/index/article
+[ log ] localhost/BBC/public/index/article [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：3,034.12kb] [文件加载：62]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/index/blog',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\xampp\htdocs\BBC\application\index\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\article\index.html [ array (
+  0 => 'name',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=message;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 8 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:28+08:00 ] ::1 ::1 GET /BBC/public/add
+[ log ] localhost/BBC/public/add [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,790.73kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/article',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Article->add[ D:\xampp\htdocs\BBC\application\index\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\article\add.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:38+08:00 ] ::1 ::1 GET /BBC/public/
+[ log ] localhost/BBC/public/ [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,775.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\index.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:40+08:00 ] ::1 ::1 GET /BBC/public/index/index/blog
+[ log ] localhost/BBC/public/index/index/blog [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,759.62kb] [文件加载：46]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->blog[ D:\xampp\htdocs\BBC\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\index\blog.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:41+08:00 ] ::1 ::1 GET /BBC/public/index/article
+[ log ] localhost/BBC/public/index/article [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：3,034.12kb] [文件加载：62]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/index/blog',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\xampp\htdocs\BBC\application\index\controller\Article.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\article\index.html [ array (
+  0 => 'name',
+  1 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=message;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `article` LIMIT 0,8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comment` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `comment` WHERE  `article_id` = 8 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-08-25T11:41:52+08:00 ] ::1 ::1 GET /BBC/public/index/material/command
+[ log ] localhost/BBC/public/index/material/command [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,774.87kb] [文件加载：47]
+[ info ] [ LANG ] D:\xampp\htdocs\BBC\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'material',
+    2 => 'command',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/BBC/public/index/article',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'ext_type=1; _ga=GA1.1.1294745268.1500339573; PHPSESSID=ef2kgg48ug5kf34jogckksqvm4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Material->command[ D:\xampp\htdocs\BBC\application\index\controller\Material.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\xampp\htdocs\BBC\public/../application/index\view\material\command.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
